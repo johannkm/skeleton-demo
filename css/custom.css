@@ -1,0 +1,56 @@
+body {
+  background-color: #FEFCFB;
+}
+
+.section {
+  padding: 8rem 8rem 8rem 8rem;
+  /*padding-bottom: 5rem;*/
+}
+
+.about {
+  color: #FEFCFB;
+  background-color: #034078;
+}
+
+.team {
+  color: #FEFCFB;
+  background-color: #876977;
+}
+
+.navbar {
+  position: fixed;
+    top: 0;
+    width: 90%;
+  padding: 1rem 8rem 0rem 8rem;
+  color: #FEFCFB;
+  background-color: #0D1321;
+  opacity: 0.95;
+  /*padding: 10rem;*/
+  z-index:1;
+}
+
+/*.navbar-header {
+  padding: 0rem;
+}*/
+
+.button-light {
+  color: #FEFCFB;
+}
+.button-light:hover {
+  color: #E7E6E5;
+}
+
+.button-squished {
+  white-space: normal;
+  overflow:hidden;
+}
+
+.profile {
+  width: 150px;
+  height: 150px;
+  min-width: 150px;
+  min-height: 150px;
+  -webkit-filter: grayscale(30%);
+  filter: grayscale(30%);
+  border-radius: 3%;
+}
