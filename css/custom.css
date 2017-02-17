@@ -3,8 +3,8 @@ body {
 }
 
 .section {
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
   /*padding: 8rem 8rem 8rem 8rem;*/
   /*padding-bottom: 5rem;*/
 }
@@ -52,10 +52,6 @@ body {
   color: #FEFCFB; }
 .navbar-link.active {
   color: #33C3F0; }
-
-#projectName {
-  font-weight: 600;
-}
 
 /*.navbar-header {
   padding: 0rem;

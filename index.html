@@ -33,13 +33,13 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <header class="navbar">
+  <header id="navbar" class="navbar">
     <div class="container">
       <ul class="navbar-list">
-        <li class="navbar-item"><a id="projectName" class="navbar-link" href="#">Project</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#about">About</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#about">Timeline</a></li>
-        <li class="navbar-item"><a class="navbar-link" href="#about">Team</a></li>
+        <li class="navbar-item"><a id="projectButton" class="navbar-link" href="#">Project</a></li>
+        <li class="navbar-item"><a id="aboutButton" class="navbar-link" href="#about">About</a></li>
+        <li class="navbar-item"><a id="timelineButton" class="navbar-link" href="#timeline">Timeline</a></li>
+        <li class="navbar-item"><a id="teamButton" class="navbar-link" href="#team">Team</a></li>
 
            <!-- <a class="button button-light u-pull-right" href="#">Anchor button</a> -->
 
@@ -49,7 +49,7 @@
     </div>
   </header>
 
-  <div class="section intro" style="margin-top:5rem">
+  <div id="intro" class="section intro" style="margin-top:8rem">
     <div class="container">
       <!-- <div class="row">
         <div class="one-half column"> -->
@@ -62,7 +62,7 @@
     </div>
   </div>
 
-  <div class="section about">
+  <div id="about" class="section about">
     <div class="container">
       <h3>About</h3>
       <hr>
@@ -82,14 +82,15 @@
   </div>
 
 
-    <div class="section timeline">
-      <div class="container">
-        <h3>Timeline</h3>
-        <hr>
-      </div>
-    </div>
+  <div id="timeline" class="section timeline">
+    <div class="container">
+      <h3>Timeline</h3>
+      <hr>
 
-  <div class="section team">
+    </div>
+  </div>
+
+  <div id="team" class="section team">
     <div class="container">
       <h3>Team</h3>
       <hr>
@@ -113,5 +114,7 @@
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <script src="js/jquery-3.1.1.slim.min.js"></script> -->
+  <script src="js/main.js"></script>
 </body>
 </html>
