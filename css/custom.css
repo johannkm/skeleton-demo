@@ -3,7 +3,9 @@ body {
 }
 
 .section {
-  padding: 8rem 8rem 8rem 8rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  /*padding: 8rem 8rem 8rem 8rem;*/
   /*padding-bottom: 5rem;*/
 }
 
@@ -20,8 +22,12 @@ body {
 .navbar {
   position: fixed;
     top: 0;
-    width: 90%;
-  padding: 1rem 8rem 0rem 8rem;
+    width: 100%;
+
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+
+  /*padding: 1rem 8rem 0rem 8rem;*/
   color: #FEFCFB;
   background-color: #0D1321;
   opacity: 0.95;
