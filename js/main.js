@@ -117,6 +117,33 @@ document.addEventListener("DOMContentLoaded", function() {
          jumpTo("team")
        });
   });
+  document.getElementById("contactButton").addEventListener('click', function(e) {
+       e.preventDefault();
+       let y1 = document.getElementById('contact').getBoundingClientRect().top
+       let y2 = document.body.getBoundingClientRect().top
+       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+         console.log("Sequence cancelled:", error);
+         jumpTo("contact")
+       });
+  });
+  document.getElementById("innerAboutButton").addEventListener('click', function(e) {
+       e.preventDefault();
+       let y1 = document.getElementById('about').getBoundingClientRect().top
+       let y2 = document.body.getBoundingClientRect().top
+       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+         console.log("Sequence cancelled:", error);
+         jumpTo("about")
+       });
+  });
+  document.getElementById("innerContactButton").addEventListener('click', function(e) {
+       e.preventDefault();
+       let y1 = document.getElementById('contact').getBoundingClientRect().top
+       let y2 = document.body.getBoundingClientRect().top
+       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+         console.log("Sequence cancelled:", error);
+         jumpTo("contact")
+       });
+  });
 });
 
 // smooth_scroll_to(document.body, 1600, 2000).then(function() {

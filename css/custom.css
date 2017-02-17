@@ -11,12 +11,20 @@ body {
 
 .about {
   color: #FEFCFB;
-  background-color: #0A4984;
+  background-color: #224772;
 }
 
 .team {
   color: #FEFCFB;
-  background-color: #688DB7;
+  background-color: #7CA3A1;
+  /*FCDEBE*/
+}
+
+.contact {
+  color: #FEFCFB;
+  background-color: #0D1321;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .navbar {
@@ -81,12 +89,26 @@ body {
 .profile {
   width: 150px;
   height: 150px;
-  min-width: 150px;
-  min-height: 150px;
-  -webkit-filter: grayscale(30%);
-  filter: grayscale(30%);
-  border-radius: 3%;
+  /*-webkit-filter: grayscale(30%);
+  filter: grayscale(30%);*/
+  border-radius: 0.25em;
 }
+.profile-text{
+  display: inline-block;
+  width: auto;
+
+}
+.profile-name {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0.5rem;
+}
+.profile-skill {
+  margin: 0.25rem;
+}
+.profile-text{
+  }
 
 /*timeline*/
 /* --------------------------------
@@ -164,7 +186,7 @@ Main components
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #E1EBF1;
+  background: #EEEFF3;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -211,7 +233,7 @@ Main components
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  box-shadow: 0 0 0 4px #FFFFFF, inset 0 2px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 0 4px #FEFCFB, inset 0 2px 0 rgba(0, 0, 0, 0.08);
 }
 .cd-timeline-img img {
   display: block;
@@ -224,7 +246,7 @@ Main components
   margin-top: -12px;
 }
 .cd-timeline-img.cd-1 {
-  background: #CCABC9;
+  background: #DCC6DA;
 }
 .cd-timeline-img.cd-2 {
   background: #4A4E69;
