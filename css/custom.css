@@ -1,3 +1,5 @@
+html, body {margin:0;padding:0;height:100%}
+
 body {
   background-color: #FEFCFB;
 }
@@ -7,6 +9,11 @@ body {
   padding-bottom: 9rem;
   /*padding: 8rem 8rem 8rem 8rem;*/
   /*padding-bottom: 5rem;*/
+}
+
+.intro {
+  height:100%;
+  text-align: center;
 }
 
 .about {
