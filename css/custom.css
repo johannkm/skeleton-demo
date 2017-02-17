@@ -57,7 +57,7 @@ body {
     position: relative;
     float: left;
     margin-bottom: 0;
-    margin-right: 35px; }
+    margin-right: 5px; }
   .navbar-link {
     text-transform: uppercase;
     font-size: 11px;
@@ -68,6 +68,16 @@ body {
     color: #FEFCFB; }
   .navbar-link.active {
     color: #33C3F0; }
+}
+@media (min-width: 550px) {
+  .navbar-item {
+    margin-right: 15px;
+  }
+}
+@media (min-width: 750px) {
+  .navbar-item {
+    margin-right: 35px;
+  }
 }
 
 /*.navbar-header {
@@ -94,7 +104,6 @@ body {
   border-radius: 0.25em;
 }
 .profile-text{
-  display: inline-block;
   width: auto;
 
 }
@@ -107,8 +116,7 @@ body {
 .profile-skill {
   margin: 0.25rem;
 }
-.profile-text{
-  }
+
 
 /*timeline*/
 /* --------------------------------
