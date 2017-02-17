@@ -1,3 +1,5 @@
+var scrTime = 300;
+
 /**
     https://coderwall.com/p/hujlhg/smooth-scrolling-without-jquery
 
@@ -94,7 +96,7 @@ document.addEventListener("DOMContentLoaded", function() {
        e.preventDefault();
        let y1 = document.getElementById('about').getBoundingClientRect().top
        let y2 = document.body.getBoundingClientRect().top
-       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+       smooth_scroll_to(document.body,y1-y2+80-offset,scrTime).catch(function(error){
          console.log("Sequence cancelled:", error);
          jumpTo("about")
        });
@@ -103,7 +105,7 @@ document.addEventListener("DOMContentLoaded", function() {
        e.preventDefault();
        let y1 = document.getElementById('timeline').getBoundingClientRect().top
        let y2 = document.body.getBoundingClientRect().top
-       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+       smooth_scroll_to(document.body,y1-y2+80-offset,scrTime).catch(function(error){
          console.log("Sequence cancelled:", error);
          jumpTo("timeline")
        });
@@ -112,7 +114,7 @@ document.addEventListener("DOMContentLoaded", function() {
        e.preventDefault();
        let y1 = document.getElementById('team').getBoundingClientRect().top
        let y2 = document.body.getBoundingClientRect().top
-       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+       smooth_scroll_to(document.body,y1-y2+80-offset,scrTime).catch(function(error){
          console.log("Sequence cancelled:", error);
          jumpTo("team")
        });
@@ -121,7 +123,7 @@ document.addEventListener("DOMContentLoaded", function() {
        e.preventDefault();
        let y1 = document.getElementById('contact').getBoundingClientRect().top
        let y2 = document.body.getBoundingClientRect().top
-       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+       smooth_scroll_to(document.body,y1-y2+80-offset,scrTime).catch(function(error){
          console.log("Sequence cancelled:", error);
          jumpTo("contact")
        });
@@ -130,7 +132,7 @@ document.addEventListener("DOMContentLoaded", function() {
        e.preventDefault();
        let y1 = document.getElementById('about').getBoundingClientRect().top
        let y2 = document.body.getBoundingClientRect().top
-       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+       smooth_scroll_to(document.body,y1-y2+80-offset,scrTime).catch(function(error){
          console.log("Sequence cancelled:", error);
          jumpTo("about")
        });
@@ -139,7 +141,7 @@ document.addEventListener("DOMContentLoaded", function() {
        e.preventDefault();
        let y1 = document.getElementById('contact').getBoundingClientRect().top
        let y2 = document.body.getBoundingClientRect().top
-       smooth_scroll_to(document.body,y1-y2+80-offset,200).catch(function(error){
+       smooth_scroll_to(document.body,y1-y2+80-offset,scrTime).catch(function(error){
          console.log("Sequence cancelled:", error);
          jumpTo("contact")
        });
