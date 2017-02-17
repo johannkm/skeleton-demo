@@ -8,6 +8,7 @@
     interrupted
  */
 var smooth_scroll_to = function(element, target, duration) {
+    var globalID;
     target = Math.round(target);
     duration = Math.round(duration);
     if (duration < 0) {
@@ -52,6 +53,7 @@ var smooth_scroll_to = function(element, target, duration) {
 
             // check if we're done!
             if(now >= end_time) {
+                cancelAnimationFrame(globalID);
                 resolve();
                 return;
             }
@@ -67,11 +69,12 @@ var smooth_scroll_to = function(element, target, duration) {
             previous_top = element.scrollTop;
 
             // schedule next frame for execution
-            setTimeout(scroll_frame, 0);
+            // setTimeout(scroll_frame, 0);
+            globalID = requestAnimationFrame(scroll_frame);
         }
 
         // boostrap the animation process
-        setTimeout(scroll_frame, 0);
+        globalID = requestAnimationFrame(scroll_frame);
     });
 }
 
